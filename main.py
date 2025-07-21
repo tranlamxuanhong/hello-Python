@@ -82,5 +82,27 @@ print(another_list)
 
 #collection of key value pairs
 players_number = {"football" : 11, "volleyball" : 5, "badminton" : 6}
-print(players_number.get("football"));
+print(players_number.get("football"))
+
+#float variables
+
+a = 5
+b = 6
+c = 7
+d = 8
+
+print(float(a)*float(b)*float(c)* float(d))
+
+#concatunates or add these strings
+string1 = "Data"
+string2 = "Skills for"
+string3 = " All"
+print(string1 + string2 + string3)
+
+#convert to int
+my_string = "567"
+convert_to_integer = int(my_string)
+length_my_string = len(my_string)
+result = convert_to_integer/length_my_string
+print(int(result))
       
